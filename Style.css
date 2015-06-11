@@ -1,6 +1,7 @@
 /*
 * clear default formatting for forms Source= http://stackoverflow.com/questions/18213101/remove-input-box-border-using-css
 */
+
 *{
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -26,15 +27,6 @@ header {
 
 ul.right {
 	float: right;
-}
-
-#footer ul.right {
-	float: right;
-	margin-right: 25px;
-}
-
-ul.left {
-	float: left;
 }
 
 li {
@@ -181,7 +173,6 @@ a.tooltip span:after {
 a:hover.tooltip span {
 	visibility: visible;
 	top: 30px;
-	/*left: 75%;*/
 	margin-left: -44px;
 	z-index: 99;
 }
@@ -214,4 +205,13 @@ input[type=submit]:hover {
 	height: 40px;
 	position: fixed;
 	bottom: 0px;
+}
+
+#footer ul.right {
+	float: right;
+	margin-right: 25px;
+}
+
+ul.left {
+	float: left;
 }
