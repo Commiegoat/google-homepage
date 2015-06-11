@@ -190,8 +190,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-	border: 2px solid #cccccc;
-	margin: 0px 5px 0px 5px;
+	border: 1px solid #A3A3A3;
 	color: #2E2E2E;
 }
 
